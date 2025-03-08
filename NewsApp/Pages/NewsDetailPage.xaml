@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewsApp.Pages.NewsDetailPage"
+             Title="News Details">
+    <ScrollView>
+        <StackLayout Padding="15">
+            <!-- Article Image (full width at top) -->
+            <Image x:Name="ArticleImage" 
+                   HeightRequest="200" 
+                   Aspect="AspectFill"
+                   HorizontalOptions="Fill"/>
+
+            <!-- Article Title (large, bold text) -->
+            <Label x:Name="TitleLabel" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   Margin="0,15,0,10"/>
+
+            <!-- Source information -->
+            <Label x:Name="SourceLabel" 
+                   FontSize="14" 
+                   TextColor="Gray" 
+                   Margin="0,0,0,10"/>
+
+            <!-- Publication date -->
+            <Label x:Name="PublishedDateLabel" 
+                   FontSize="14" 
+                   TextColor="Gray" 
+                   Margin="0,0,0,15"/>
+
+            <!-- Article content (readable font) -->
+            <Label x:Name="ContentLabel" 
+                   FontSize="16" 
+                   LineBreakMode="WordWrap"/>
+
+            <!-- Read more button -->
+            <Button x:Name="ReadMoreButton" 
+                    Text="Read Full Article" 
+                    Margin="0,20,0,0"
+                    Clicked="OnReadMoreClicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

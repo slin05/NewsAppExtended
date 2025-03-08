@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewsApp.Pages.NewsListPage">
+    <StackLayout Padding="10">
+        <CollectionView x:Name="CvNewsList" 
+                        EmptyView="No news available for this category"
+                        SelectionMode="Single"
+                        SelectionChanged="OnNewsSelectionChanged">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="0,5" 
+                           Padding="10" 
+                           BorderColor="LightGray" 
+                           CornerRadius="5">
+                        <Grid ColumnDefinitions="Auto,*" 
+                              RowDefinitions="Auto,Auto">
+                            <Image Grid.RowSpan="2" 
+                                   Source="{Binding Image}" 
+                                   HeightRequest="80" 
+                                   WidthRequest="80" 
+                                   Aspect="AspectFill"
+                                   Margin="0,0,10,0"/>
+                            <Label Grid.Column="1" 
+                                   Text="{Binding Title}" 
+                                   FontAttributes="Bold" 
+                                   LineBreakMode="TailTruncation"
+                                   MaxLines="2"/>
+                            <Label Grid.Column="1" 
+                                   Grid.Row="1" 
+                                   Text="{Binding Source.Name}" 
+                                   FontSize="Small" 
+                                   TextColor="Gray"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
