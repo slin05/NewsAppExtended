@@ -33617,11 +33617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yyyyy\\Downloads\\NewsApp\\NewsApp\\NewsApp\\NewsApp.csproj",
+      "projectUniqueName": "C:\\Users\\yyyyy\\Source\\Repos\\NewsAppExtended\\NewsApp\\NewsApp.csproj",
       "projectName": "NewsApp",
-      "projectPath": "C:\\Users\\yyyyy\\Downloads\\NewsApp\\NewsApp\\NewsApp\\NewsApp.csproj",
+      "projectPath": "C:\\Users\\yyyyy\\Source\\Repos\\NewsAppExtended\\NewsApp\\NewsApp.csproj",
       "packagesPath": "C:\\Users\\yyyyy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yyyyy\\Downloads\\NewsApp\\NewsApp\\NewsApp\\obj\\",
+      "outputPath": "C:\\Users\\yyyyy\\Source\\Repos\\NewsAppExtended\\NewsApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

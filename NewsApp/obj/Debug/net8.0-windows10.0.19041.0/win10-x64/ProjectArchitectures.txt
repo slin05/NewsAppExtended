@@ -1,1 +1,1 @@
-C:\Users\yyyyy\Downloads\NewsApp\NewsApp\NewsApp\NewsApp.csproj;x64
+C:\Users\yyyyy\Source\Repos\NewsAppExtended\NewsApp\NewsApp.csproj;x64

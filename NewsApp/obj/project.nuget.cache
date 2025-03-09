@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q/PoFSOjFb4=",
+  "dgSpecHash": "0Y1HziDF8bI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yyyyy\\Downloads\\NewsApp\\NewsApp\\NewsApp\\NewsApp.csproj",
+  "projectFilePath": "C:\\Users\\yyyyy\\Source\\Repos\\NewsAppExtended\\NewsApp\\NewsApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yyyyy\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\yyyyy\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

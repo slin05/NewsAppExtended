@@ -31,6 +31,12 @@
                                    Text="{Binding Source.Name}" 
                                    FontSize="Small" 
                                    TextColor="Gray"/>
+
+                            <Button Grid.ColumnSpan="2" 
+                                    Grid.RowSpan="2" 
+                                    BackgroundColor="Transparent" 
+                                    Clicked="OnNewsButtonClicked"
+                                    CommandParameter="{Binding .}"/>
                         </Grid>
                     </Frame>
                 </DataTemplate>
